@@ -5,10 +5,11 @@
 <h3>Student's addresses</h3>
 
 <% @address.each do |address|%>
-<%=address.description%>
-
-<%=address.street%>
-<%=address.city%>
-<%=address.state%>
-<%=address.zipcode%>
+<div>
+<p><%=address.description%></p>
+<p><%=address.street%></p>
+<p><%=address.city%></p>
+<p><%=address.state%></p>
+<p><%=address.zipcode%></p>
+</div>
 <%end%>
